@@ -19,6 +19,8 @@ February 5 2018
 
 This project entailed building a FCN and training it such that it could achieve an accuracy >= 40% (using the IoU metric). With a fair amount of effort, I was ultimately able to achieve a FCN which scored a 0.44016659591 for my submission for the final project of term 1. The completed Jupyter Notebook for this model training can be found here: [model_training.ipynb](./notebooks/success/model_training.md) and the 'model_weights.h5' file can be found here: [model_weights.h5](./data/weights/model_weights.h5)
 
+Note that the training data has been removed from the repository due to the restrictions on number of files included in a repo for Udacity's submissions system.
+
 ## [Rubric](https://review.udacity.com/#!/rubrics/1155/view) Points
 
 ---
