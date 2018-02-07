@@ -17,7 +17,7 @@ February 5 2018
 
 ![trainingdatacollection]
 
-This project entailed building a FCN and training it such that it could achieve an accuracy >= 40% (using the IoU metric). With a fair amount of effort, I was ultimately able to achieve a FCN which scored a 0.44016659591 for my submission for the final project of term 1. The completed Jupyter Notebook for this model training can be found here: [model_training.ipynb](./notebooks/success/model_training.md) and the 'model_weights.h5' file can be found here: [model_weights.h5](./data/weights/model_weights.h5)
+This project entailed building a FCN and training it such that it could achieve an accuracy >= 40% (using the IoU metric). With a fair amount of effort, I was ultimately able to achieve a FCN which scored a 0.44016659591 for my submission for the final project of term 1. The completed Jupyter Notebook for this model training can be found here: [model_training.ipynb](./notebooks/success/model_training.md) and the model and weights files in '.h5' file format can be found here: [model_weights.h5](./data/weights/model_weights.h5) and [config_model_weights.h5](./data/weights/config_model_weights.h5)
 
 Note that the training data has been removed from the repository due to the restrictions on number of files included in a repo for Udacity's submissions system.
 
@@ -172,6 +172,7 @@ Another opportunity for improvement would be to continue to experimentally tweak
 #### 1. The model is submitted in the correct format. 
 
 The 'model_weights.h5' generated via training on AWS instance file can be found here: [model_weights.h5](./data/weights/model_weights.h5)
+The 'config_model_weights.h5' generated via the training on AWS instance file can be found here: [config_model_weights.h5](./data/weights/config_model_weights.h5)
 
 #### 2. The neural network must achieve a minimum level of accuracy for the network implemented.
 
